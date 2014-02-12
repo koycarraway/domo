@@ -1,4 +1,4 @@
-Bottoms Up
+Domo
 ==========
 
-Bottoms Up - A Vanilla Starter Kit for the Wide World of Webs
+Domo - A Vanilla HTML/SCSS Starter Kit for the Wide World of Webs
