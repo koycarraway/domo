@@ -27,7 +27,7 @@
 		"inputAbbreviatedPath": "\/bower_components\/html5shiv\/dist\/html5shiv.js",
 		"outputAbbreviatedPath": "\/dist\/js\/html5shiv.min.js",
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 2,
+		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/html5shiv\/readme.md": {
@@ -39,6 +39,57 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/bower_components\/html5shiv\/readme.md",
 		"outputAbbreviatedPath": "\/bower_components\/html5shiv\/readme.html",
+		"outputPathIsSetByUser": 0
+		},
+	"\/bower_components\/jquery\/jquery-migrate.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/jquery\/jquery-migrate.js",
+		"outputAbbreviatedPath": "\/dist\/js\/jquery-migrate.min.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/jquery\/jquery-migrate.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/jquery\/jquery-migrate.min.js",
+		"outputAbbreviatedPath": "\/dist\/js\/jquery-migrate.min.min.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/jquery\/jquery.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/jquery\/jquery.js",
+		"outputAbbreviatedPath": "\/dist\/js\/jquery.min.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/jquery\/jquery.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/jquery\/jquery.min.js",
+		"outputAbbreviatedPath": "\/dist\/js\/jquery.min.min.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/jquery\/README.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/jquery\/README.md",
+		"outputAbbreviatedPath": "\/bower_components\/jquery\/README.html",
 		"outputPathIsSetByUser": 0
 		},
 	"\/bower_components\/respond\/cross-domain\/example.html": {
@@ -92,9 +143,9 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/bower_components\/respond\/dest\/respond.min.js",
-		"outputAbbreviatedPath": "\/dist\/js\/respond.min.min.js",
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 2,
+		"outputAbbreviatedPath": "\/dist\/js\/respond.min.js",
+		"outputPathIsSetByUser": 1,
+		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/respond\/dest\/respond.src.js": {
@@ -165,7 +216,7 @@
 		"inputAbbreviatedPath": "\/bower_components\/selectivizr\/selectivizr.js",
 		"outputAbbreviatedPath": "\/dist\/js\/selectivizr.min.js",
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 2,
+		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/selectivizr\/tests\/master\/css\/common.css": {
@@ -316,6 +367,36 @@
 		"outputStyle": 2,
 		"syntaxCheckerStyle": 1
 		},
+	"\/dist\/js\/html5shiv.min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/dist\/js\/html5shiv.min.js",
+		"outputAbbreviatedPath": "\/dist\/js\/html5shiv.min.min.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 1
+		},
+	"\/dist\/js\/respond.min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/dist\/js\/respond.min.js",
+		"outputAbbreviatedPath": "\/dist\/js\/respond.min.min.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 1
+		},
+	"\/dist\/js\/selectivizr.min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/dist\/js\/selectivizr.min.js",
+		"outputAbbreviatedPath": "\/dist\/js\/selectivizr.min.min.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 1
+		},
 	"\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -345,7 +426,7 @@
 	"bowerAbbreviatedPath": "",
 	"displayValue": "domo",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "compass_gray"
+	"iconImageName": "brackets_darkGray"
 	},
 "projectSettings": {
 	"alwaysUseExternalServer": 0,
