@@ -1,0 +1,27 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+	Language: English
+	Author: Koy Carraway
+	Web Designer & Developer: Koy Carraway
+	Twitter: @koycarraway
+	Location: Alabama, USA
+
+# THANKS
+
+	HTML5 Boilerplate
+	http://html5boilerplate.com/
+
+
+# TECHNOLOGY COLOPHON
+
+	Standards:
+		HTML5, CSS3, jQuery, Normalize.css, Modernizr
+
+	Components:
+		Bourbon, Bourbon Neat, SCSS, HTML5 BP
+
+	Software:
+		Sublime Text 2, CodeKit 2, Photoshop, Image Optim, Transmit, iTerm2
