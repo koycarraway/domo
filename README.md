@@ -1,4 +1,4 @@
-bottoms-up
+Bottoms Up
 ==========
 
-Bottoms Up - Vanilla Base Framework
+Bottoms Up - A Vanilla Starter Kit for the Wide World of Webs
