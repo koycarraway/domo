@@ -1,0 +1,148 @@
+
+// ==========================================================================
+//  Global Base Form Styling
+// ==========================================================================
+
+form {
+
+  input, textarea { border: none; outline: none; }
+  p + p { text-indent: 0; margin-top: 0; }
+
+  #{$all-text-inputs}, textarea {
+    background: hsla(210, 8%, 98%, 1);
+    min-width: 150px;
+    padding: 3px 10px;
+    border: 1px solid hsla(0, 0%, 87%, 1);
+    line-height: 1.5em;
+    border-radius: 3px;
+    box-shadow: none;
+    height: 40px;
+    font-family: $sans-serif;
+    color: hsla(0, 0%, 62%, 1);
+    @include font-size(22);
+    font-weight: 400;
+    float: left;
+    margin: 0;
+    width: 100%;
+    @include transition(border .15s ease-in-out);
+  }
+
+  // Target the :hover pseudo-class
+  #{$all-text-inputs-hover} {
+    border-color: hsla(0, 0%, 70%, 1);
+  }
+
+  // Target the :focus pseudo-class
+  #{$all-text-inputs-focus} {
+    border-color: $brand_color;
+    background: $white;
+  }
+
+  // Text Area
+  textarea {
+    resize: none;
+    height: 150px;
+    width: 100%;
+
+
+    &:hover {
+      border-color: hsla(0, 0%, 70%, 1);
+    }
+
+    &:focus {
+      border-color: $brand_color;
+    }
+  }
+
+  // Form Label
+  label {
+    @include font-size(19);
+    font-weight: regular;
+    color: hsla(0, 0%, 62%, 1);
+  }
+
+  input[type=submit], .submit-btn {
+    color: $white;
+    @include font-size(21);
+    font-weight: 300;
+    text-align: center;
+    @include linear-gradient($brand_color, darken($brand_color, 5%), $fallback: $brand_color);
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    padding: .75em .9em;
+    margin-top: 1em;
+    line-height: 1;
+    border: 1px solid darken($brand_color, 8%);
+
+    &:hover, &:focus {
+      @include linear-gradient($brand_color, darken($brand_color, 0%), $fallback: $brand_color);
+      box-shadow: 0 1px 3px rgba(0,0,0,.15);
+      border: 1px solid darken($brand_color, 15%);
+    }
+
+    &:active {
+      @include linear-gradient( darken($brand_color, 6%),$brand_color, $fallback: $brand_color);
+      box-shadow: 0 1px 1px rgba(0,0,0,.12);
+    }
+  }
+}
+
+
+
+// Contact Form 7 Styles -------------------------------
+
+.form-field {
+  display: block;
+  overflow: hidden;
+  margin: 0 0 0 .5em;
+}
+
+select {
+  @include font-size(18);
+  margin: 0;
+  width: 100%;
+}
+
+.wpcf7-form-control-wrap {
+  display: block;
+  overflow: hidden;
+  height: auto;
+}
+
+div.wpcf7-response-output {
+  @include font-size(13);
+  font-family: $sans-serif;
+  font-weight: bold;
+  margin: 0;
+  padding: .5em 1em;
+  border-radius: 3px;
+  color: $white;
+}
+
+div.wpcf7-mail-sent-ok {
+  border: 1px solid darken($successcolor , 20%);
+  background-color: rgba($successcolor, .9);
+}
+
+div.wpcf7-validation-errors {
+  border: 1px solid darken($warningcolor, 10%);
+  background-color: rgba($warningcolor, .9);
+}
+
+span.wpcf7-not-valid-tip {
+  border-radius: 3px;
+  border: 1px solid darken($red_orange, 10%);
+  background-color: rgba($red_orange, .9);
+  color: $white;
+  @include font-size(12);
+  font-weight: bold;
+  font-family: $sans-serif;
+  padding: .5em 1em;
+
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  z-index: 100;
+  width: auto;
+}

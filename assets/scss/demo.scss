@@ -1,0 +1,21 @@
+@import "app";
+
+// Github Pages Demo Styles
+
+.page-container {
+  margin-top: 12em;
+  text-align: center;
+}
+
+h1 {
+  color: $blue;
+  @include font-size(92);
+  line-height: 1.2;
+  letter-spacing: -.04em;
+  margin: .2em 0;
+  font-weight: 200;
+}
+
+h2 {
+  color: $grey;
+}

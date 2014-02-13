@@ -1,0 +1,68 @@
+
+// ==========================================================================
+//  Global Base Color Variables
+// ==========================================================================
+
+
+
+// Colors Variables
+// --------------------------------------------------------------------------
+  $black                    : hsla(0, 0%, 22%, 1);
+  $darkgrey                 : lighten($black, 25%);
+  $grey                     : lighten($black, 50%);
+  $lightgrey                : lighten($black, 70%);
+  $white                    : hsla(0, 0%, 100%, 1);
+  $offwhite                 : hsla(0, 0%, 95%, 1);
+
+  // Cool
+  $aqua:  #7FDBFF;
+  $blue:  #0074D9;
+  $navy:  #001F3F;
+  $teal:  #39CCCC;
+  $green: #2ECC40;
+  $olive: #3D9970;
+  $lime:  #01FF70;
+
+  // Warm
+  $yellow:  #FFDC00;
+  $orange:  #FF851B;
+  $red:     #FF4136;
+  $fuchsia: #F012BE;
+  $purple:  #B10DC9;
+  $maroon:  #85144B;
+
+
+// Brand Colors
+// --------------------------------------------------------------------------
+  $brand_color              : $blue;
+  $brand_charcoal           : hsla(30, 4%, 33%, 1);
+  $brand_alt_color          : hsla(158, 49%, 49%, 1);
+  $brand_alt_color2         : hsla(56, 28%, 90%, 1);
+  $steel                    : hsla(225, 6%, 14%, 1);
+
+
+// Base Color Assignments
+// --------------------------------------------------------------------------
+  $text_color               : hsla(212, 7%, 55%, 1);
+  $comp_color               : adjust-hue($brand-color, 180);
+  $border_color             : lighten($brand-color, 60%);
+  $heading-font_color       : $brand-charcoal;
+
+
+// Link Colors
+// --------------------------------------------------------------------------
+  $link-color               : $blue;
+  $link-color-visited       : $purple;
+  $link-color-hover         : $aqua;
+  $link-color-focus         : $aqua;
+  $link-color-active        : $orange;
+
+
+// Alert Colors
+// --------------------------------------------------------------------------
+  $alertcolor               : rgb(252,248,227);
+  $errorcolor               : rgb(218,79,73);
+  $infocolor                : rgb(217,237,247);
+  $inverscolor              : rgb(65,65,65);
+  $successcolor             : rgb(91,183,91);
+  $warningcolor             : rgb(250,167,50);

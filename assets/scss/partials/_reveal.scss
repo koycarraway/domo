@@ -1,0 +1,74 @@
+
+// ==========================================================================
+//  Popup Reveal Modal Styles
+// ==========================================================================
+
+%reveal-modal-small { width: 30% !important; margin-left: -15% !important; }
+%reveal-modal-medium { width: 40%; margin-left: -20%; }
+%reveal-modal-large { width: 60%; margin-left: -30%; }
+%reveal-modal-xlarge { width: 70%; margin-left: -35%; }
+%reveal-modal-expand { width: 90%; margin-left: -45%; }
+
+.reveal-modal-bg {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background: #000;
+  background: rgba(0, 0, 0, 0.45);
+  z-index: 40;
+  display: none;
+  top: 0;
+  left: 0;
+}
+
+.reveal-modal {
+  background: #fff;
+  visibility: hidden;
+  display: none;
+  top: 100px;
+  left: 50%;
+  margin-left: -260px;
+  width: 520px;
+  position: absolute;
+  z-index: 9999;
+  padding: 30px;
+  @include box-shadow(0 0 10px rgba(0,0,0, 0.4));
+}
+
+.reveal-modal > :first-child { margin-top: 0; }
+.reveal-modal > :last-child { margin-bottom: 0; }
+
+.reveal-modal .close-reveal-modal {
+  @include font-size(20);
+  line-height: .5;
+  position: absolute;
+  top: 1.5em;
+  right: 1em;
+  text-shadow: none;
+  color: #aaa;
+  cursor: pointer;
+
+  &:hover {
+    color: $plaid_blue;
+    text-decoration: none;
+  }
+}
+
+.reveal-modal-size {
+  width: 90%;
+  margin-left: -45%;
+
+  @include breakpoint($md) {
+    width: 90%;
+    margin-left: -45%;
+  }
+
+  @include breakpoint($lg) {
+    width: 60%;
+    margin-left: -30%;
+  }
+}
+
+
+@media print { div:not(.reveal-modal) { display: none; }
+  .reveal-modal { border: solid 1px #000; background: #fff; } }

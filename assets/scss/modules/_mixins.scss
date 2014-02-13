@@ -1,0 +1,178 @@
+
+// ==========================================================================
+//  SASS Mixins
+// ==========================================================================
+
+
+
+// Clearfixin
+// --------------------------------------------------------------------------
+// USAGE: @extend %clearfix;
+
+  @mixin clearfix {
+    *zoom: 1;
+    &:before, &:after { content: " "; display: table; }
+    &:after { clear: both; }
+  }
+
+
+
+// Font-Size
+// --------------------------------------------------------------------------
+// USAGE: @include font-size(value);
+
+  @mixin font-size($font-size) {
+    font-size: #{$font-size}px;
+    font-size: #{$font-size / $font-base}rem;
+  }
+
+
+
+// EASY 2X RETINA IMAGES
+// --------------------------------------------------------------------------
+// USAGE: @include image-2x($image, $width, $height);
+
+  @mixin image-2x($image, $width, $height) {
+    @media (min--moz-device-pixel-ratio: 1.3),
+      (-o-min-device-pixel-ratio: 2.6/2),
+      (-webkit-min-device-pixel-ratio: 1.3),
+      (min-device-pixel-ratio: 1.3),
+      (min-resolution: 1.3dppx) {
+    /* on retina, use image that's scaled by 2 */
+    background-image: url($image);
+    background-size: $width $height;
+    }
+  }
+
+
+
+// SVG & PNG Fallback
+// --------------------------------------------------------------------------
+// USAGE: @include img("name-of-file", "dir");
+// USAGE: @extend %img_name-of-file;
+
+  @mixin img($name, $dir) {
+    .lt-ie9 %img_#{$name} {
+      background-image: url("../images/#{$dir}/#{$name}.png")
+    }
+
+    %img_#{$name} {
+      background-image: url("../images/#{$dir}/#{$name}.svg")
+    }
+  }
+
+
+
+// Cross-Browser Opacity
+// --------------------------------------------------------------------------
+// USAGE: @include opacity($trans);
+// --------------------------------------------------------------------------
+@mixin opacity($trans) {
+  filter: alpha(opactiy=($trans * 100));
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opactiy=#{$trans * 100})";
+  -moz-opacity: $trans;
+  -khtml-opacity: $trans;
+  opacity: $trans;
+}
+
+
+
+// SCUT CIRCLE
+// http://davidtheclark.github.io/scut/#circle
+@mixin circle (
+  $size,
+  $color: inherit
+) {
+
+  border-radius: 50%;
+  display: inline-block;
+
+  @if $color == inherit {
+    // If user wants to inherit the color,
+    // take advantage of the fact that border
+    // color defaults to the text color of the element.
+    border-width: $size / 2;
+    border-style: solid;
+    height: 0;
+    width: 0;
+  }
+  @else {
+    // Otherwise, just use background-color.
+    background-color: $color;
+    height: $size;
+    width: $size;
+  }
+
+}
+
+
+
+// SCUT CENTER ABSOLUTELY
+// http://davidtheclark.github.io/scut/#center_absolutely
+
+@mixin scut-center-absolutely (
+  $dimensions
+) {
+
+  $width: nth($dimensions, 1);
+  $height: nth($dimensions, 2);
+
+  position: absolute;
+
+  @if $width != n {
+    width: $width;
+    left: 50%;
+    margin-left: (-$width / 2);
+  }
+
+  @if $height != n {
+    height: $height;
+    top: 50%;
+    margin-top: (-$height / 2);
+  }
+
+}
+
+
+// SCUT CLEARFIX
+// http://davidtheclark.github.io/scut/#clearfix
+
+@mixin scut-clearfix {
+
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+}
+
+%scut-clearfix {
+  @include scut-clearfix;
+}
+
+
+
+// SCUT LINK: BOTTOM-BORDERED
+// http://davidtheclark.github.io/scut/#link_bottom-bordered
+
+@mixin link-bb (
+  $color: inherit,
+  $style: solid,
+  $width: 1px,
+  $position: 1.1
+) {
+
+  text-decoration: none;
+  line-height: $position;
+  border-bottom-width: $width;
+  border-bottom-style: $style;
+  @if $color != inherit {
+    border-bottom-color: $color;
+  }
+
+}
+
+%link-bb {
+  @include link-bb;
+}

@@ -1,0 +1,23 @@
+ @import "neat-helpers";
+
+// ==========================================================================
+//  Bourbon Neat Grid Settings
+// ==========================================================================
+
+
+// Base Settings + Variables
+  $gutter:                1.75em;
+  $grid-columns:          4;
+  $max-width:             em(1150, 18);
+  $visual-grid:           false;
+  $visual-grid-index:     front;
+  $visual-grid-color:     #262f3d;
+  $visual-grid-opacity:   0.15;
+  $border-box-sizing:     true;
+
+// Breakpoints
+  $medium:                new-breakpoint(min-width 30em 8);    // 480px -> 640px
+  $large:                 new-breakpoint(min-width 40em 8);    // 640px -> 960px
+  $xlarge:                new-breakpoint(min-width 60em 12);   // 960px -> 1280px
+  $giant:                 new-breakpoint(min-width 80em 12);   // 1280px -> Limit
+

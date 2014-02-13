@@ -1,0 +1,53 @@
+/*  Stylesheet Info
+  =======================================================================
+
+    * Filename:       style.scss
+    * Description:    Global Master
+    * Date:           10/31/13
+    * Twitter:        @koycarraway
+    * Author:         Koy Carraway
+
+    Standards:
+  -----------------------------------------------------------------------
+    * HTML5 / CSS3
+    * JavaScript / jQuery
+    * Responsive Design (RWD)
+    * Cross-Browser Support
+
+    Components:
+  -----------------------------------------------------------------------
+    * html5bp:            http://html5boilerplate.com/
+    * normalize:          http://necolas.github.io/normalize.css/
+    * jQuery:             http://jquery.com/
+    * Selectivizr:        http://selectivizr.com/
+    * Respond JS:         http://github.com/scottjehl/Respond/
+    * HTML5 Shiv:         https://code.google.com/p/html5shiv/
+    * Sass:               http://sass-lang.com/
+    * Bourbon:            http://bourbon.io/
+    * Neat:               http://neat.bourbon.io/
+    * Bower:              http://bower.io/
+
+  ==================================================================== */
+
+
+// @ SCSS IMPORTS
+// --------------------------------------------------------------------------
+
+  // Core Modules and Variables
+  @import "modules/base-colors";
+  @import "modules/social-colors";
+  @import "modules/typography-vars";
+  @import "modules/mixins";
+  @import "modules/patterns";
+
+  // Import Bourbon & Neat Grid System
+  @import "bourbon";
+  @import "modules/grid-settings";
+  @import "neat";
+
+  // Partials
+  @import "../../bower_components/modularized-normalize-scss/normalize";
+  @import "partials/typography";
+
+  // Site Styles
+  @import "style";

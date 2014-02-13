@@ -1,0 +1,66 @@
+
+// ==========================================================================
+//  Global Table Styles
+// ==========================================================================
+
+table thead tr th,
+table tfoot tr th,
+table tbody tr td,
+table tr td,
+table tfoot tr td {
+  display: table-cell;
+}
+
+table thead tr th,
+table thead tr td,
+table tfoot tr th,
+table tfoot tr td {
+  @include font-size(18);
+  color: #222222;
+  text-align: left;
+}
+
+
+table {
+  background: white;
+  margin-bottom: 1.25em;
+  border: solid 1px #e6e6e6;
+  border-top: 0;
+
+  thead {
+    font-weight: bold;
+  }
+
+  tbody {
+
+  }
+
+  tfoot {
+    font-weight: bold;
+  }
+}
+
+table tr {
+
+  &:nth-of-type(even) {
+    background-color: #f4f4f4;
+  }
+
+  th, td {
+    color: #444;
+    text-align: left;
+    @include font-size(13);
+    line-height: 1.4;
+    font-weight: 400;
+  }
+
+  td strong {
+    font-weight: 500;
+    color: $brand_charcoal;
+  }
+
+  td {
+    padding: .75em .5em .75em 1em;
+    color: $brand_color;
+  }
+}

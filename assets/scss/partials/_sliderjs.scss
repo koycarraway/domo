@@ -1,0 +1,67 @@
+
+// ==========================================================================
+//  Slider JS
+// ==========================================================================
+
+#slides {
+  display: none;
+  position: relative;
+  //height: 560px;
+}
+
+.slidesjs-container {
+  //height: 560px !important;
+}
+
+.slidesjs-next, .slidesjs-previous {
+  position: absolute;
+  height: 100%;
+  z-index: 100;
+  text-indent: -999em;
+  display: block;
+  top: 0;
+  line-height: 1em;
+  width: 50%;
+}
+
+.slidesjs-next {
+  right: 0;
+  cursor: e-resize;
+}
+
+.slidesjs-previous {
+  left: 0;
+  cursor: w-resize;
+}
+
+.slidesjs-pagination {
+  position: absolute;
+  bottom: .5em;
+  width: 100%;
+  z-index: 100;
+  padding: 0;
+  text-align: center;
+
+  li {
+    margin: 0 .5em 0 0;
+    display: inline;
+    color: #000;
+    text-align: center;
+
+    a {
+      display: inline-block;
+      text-indent: -999em;
+      position: relative;
+      width: 15px;
+      height: 15px;
+      border-radius: 30px;
+      background-color: #ddd;
+      line-height: 2em;
+      color: #000;
+    }
+  }
+
+  .active {
+    background-color: #444;
+  }
+}

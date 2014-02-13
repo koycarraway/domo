@@ -1,0 +1,153 @@
+
+// ==========================================================================
+//  Custome Patterns / SASS Placeholders
+// ==========================================================================
+
+// Font Smoothing Hack for Modern Webkit Browsers
+%font-smoothing {
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+}
+
+// Image Replacement
+%ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    /* IE 6/7 fallback */
+    *text-indent: -9999px;
+}
+
+%ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+
+// Hide from both screenreaders and browsers: h5bp.com/u
+%hidden {
+  display : none !important;
+  visibility : hidden;
+}
+
+// Hide only visually, but have it available for screenreaders: h5bp.com/v
+%visuallyhidden {
+  overflow : hidden;
+  position : absolute;
+  clip : rect(0 0 0 0);
+  height : 1px;
+  width : 1px;
+  margin : -1px;
+  padding : 0;
+  border : 0;
+
+  // Extends the .visuallyhidden class to allow the element to be focusable
+  // when navigated to via the keyboard: h5bp.com/p
+  &.focusable {
+
+    &:active,
+    &:focus {
+      position : static;
+      clip : auto;
+      height : auto;
+      width : auto;
+      margin : 0;
+      overflow: visible;
+    }
+  }
+}
+
+// Hide visually and from screenreaders, but maintain layout
+%invisible {
+  visibility : hidden;
+}
+
+%text-overflow {
+  overflow : hidden;
+  text-overflow : ellipsis;
+  white-space : nowrap;
+}
+
+%grayscale {
+  filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 10+, Firefox on Android */
+  filter: gray; /* IE6-9 */
+  -webkit-filter: grayscale(100%); /* Chrome 19+, Safari 6+, Safari 6+ iOS */
+}
+
+%grayscale-off {
+  filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'1 0 0 0 0, 0 1 0 0 0, 0 0 1 0 0, 0 0 0 1 0\'/></filter></svg>#grayscale");
+  -webkit-filter: grayscale(0%);
+}
+
+%centered-fixed {
+  position: fixed;
+  z-index: 9999;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+}
+
+%centered {
+  position: relative;
+  left: 0;
+  right: 0;
+  text-align: center;
+  margin: 0 auto;
+}
+
+%contain {
+  margin: 0 auto;
+  max-width: 980px;
+  overflow: hidden;
+  padding: 0;
+}
+
+%well-bottom {
+  &:after {
+    position: absolute;
+    bottom: -2px;
+    right: 0;
+    left: 0;
+    content: "";
+    border: 1px solid #ffffff;
+    overflow: hidden;
+  }
+}
+
+%well-top {
+  &:before {
+    position: absolute;
+    top: -2px;
+    right: 0;
+    left: 0;
+    content: "";
+    border: 1px solid #ffffff;
+    overflow: hidden;
+  }
+}
+
+%well {
+  @extend %well-top;
+  @extend %well-bottom;
+}
+
+%mobile-padding {
+  padding: 0 2.5em;
+}
+
+%bg-cover {
+  -webkit-background-size: cover !important;
+  -moz-background-size: cover !important;
+  -o-background-size: cover !important;
+  background-size: cover !important;
+}
+
+%vertical-align {
+  position: relative;
+  line-height: 5em;
+  vertical-align: middle;
+  text-align: center;
+  display: block;
+}

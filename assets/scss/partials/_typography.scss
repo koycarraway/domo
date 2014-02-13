@@ -1,0 +1,175 @@
+
+// ==========================================================================
+//  Base/Global Typography Styles
+// ==========================================================================
+
+
+
+// Headings (h1-h6)
+// --------------------------------------------------------------------------
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: $heading-font;
+    font-weight: $heading-font_weight;
+    color: $heading_color;
+
+    a {
+      text-decoration: none;
+    }
+  }
+
+  h1 small,
+  h2 small {
+    font-weight: normal;
+    color: $lightgrey;
+  }
+
+
+// Paragraph
+// --------------------------------------------------------------------------
+
+  p {
+    margin: 0 0 ($base-line-height * .5);
+  }
+
+
+
+
+// Link Styles
+// --------------------------------------------------------------------------
+
+  a {
+    color: $link-color;
+    text-decoration: none;
+    @include transition(color 0.2s linear);
+
+    &:visited {
+      color: $link-color-visited;
+    }
+
+    &:hover {
+      color: $link-color-hover;
+    }
+
+    &:active, &:focus {
+      color: $link-color-active;
+      outline: none;
+    }
+  }
+
+
+// Blockquote, q, cite
+// --------------------------------------------------------------------------
+
+  blockquote  {
+    margin: 0 0;
+    padding-left: 0;
+    border-left: 2px solid $border_color;
+    font-style: normal;
+  }
+
+  q {
+    quotes: none;
+  }
+
+  blockquote:before,
+  blockquote:after,
+  q:before,
+  q:after {
+    content: '';
+    content: none;
+  }
+
+  cite {
+    font-style: normal;
+  }
+
+
+
+// Definition Lists - dl,dd,dt
+// --------------------------------------------------------------------------
+
+  dl,
+  dd {
+    margin-bottom: $base-line-height;
+  }
+
+  dt {
+    font-weight: bold;
+  }
+
+  .dl-horizontal {
+
+    dt {
+      float: left;
+      clear: left;
+      width: 20.25%;
+      text-align: right;
+    }
+
+    dd {
+      margin-left: 22.78%;
+    }
+  }
+
+
+
+// Text-Level
+// --------------------------------------------------------------------------
+
+  abbr[title] {
+    border-bottom: 1px dotted $border_color;
+    cursor: help;
+  }
+
+  b, strong {
+    font-weight: bold;
+  }
+
+  dfn {
+    font-style: italic;
+  }
+
+  ins {
+    background-color: lighten($brand_color, 75%);
+    color: $text_color;
+    text-decoration: none;
+  }
+
+  mark {
+    background-color: lighten($brand_color, 75%);
+    color: $text_color;
+    font-style: italic;
+    font-weight: bold;
+  }
+
+  pre,
+  code,
+  kbd,
+  samp {
+    font-family: $code_font;
+    @include font-size(14);
+    line-height: $base-line-height;
+  }
+
+  pre {
+    white-space: pre;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
+
+  sub,
+  sup {
+    position: relative;
+    @include font-size(12);
+    line-height: 0;
+    vertical-align: baselineheight;
+  }
+
+  sup {
+    top: -0.5em;
+  }
+
+  sub {
+    bottom: -0.25em;
+  }
