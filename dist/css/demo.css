@@ -637,12 +637,12 @@ img {
     display: table;
     clear: both; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/demo\.scss}line{font-family:\000035}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/demo\.scss}line{font-family:\000036}}
 .page-container {
-  margin-top: 12em;
+  margin-top: 10em;
   text-align: center; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/demo\.scss}line{font-family:\0000310}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/demo\.scss}line{font-family:\0000311}}
 h1 {
   color: #0074d9;
   font-size: 92px;
@@ -650,9 +650,9 @@ h1 {
   line-height: 1.2;
   letter-spacing: -.04em;
   margin: .2em 0;
-  font-weight: 200; }
+  font-weight: 900; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/demo\.scss}line{font-family:\0000319}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/demo\.scss}line{font-family:\0000320}}
 h2 {
   color: #b8b8b8;
   display: block;

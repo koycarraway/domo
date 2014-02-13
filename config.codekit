@@ -1411,6 +1411,54 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsSetByUser": 0
 		},
+	"\/dist\/fonts\/vaud-wf\/vaud-black.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/dist\/fonts\/vaud-wf\/vaud-black.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/dist\/fonts\/vaud-wf\/vaud-bold.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/dist\/fonts\/vaud-wf\/vaud-bold.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/dist\/fonts\/vaud-wf\/vaud-light.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/dist\/fonts\/vaud-wf\/vaud-light.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/dist\/fonts\/vaud-wf\/vaud-medium.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/dist\/fonts\/vaud-wf\/vaud-medium.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/dist\/fonts\/vaud-wf\/vaud-semibold.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/dist\/fonts\/vaud-wf\/vaud-semibold.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/dist\/fonts\/vaud-wf\/vaud-thin.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/dist\/fonts\/vaud-wf\/vaud-thin.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
 	"\/dist\/js\/html5shiv.min.js": {
 		"fileType": 64,
 		"ignore": 1,
