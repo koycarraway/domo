@@ -654,6 +654,8 @@ h1 {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/demo\.scss}line{font-family:\0000319}}
 h2 {
-  color: #b8b8b8; }
+  color: #b8b8b8;
+  display: block;
+  margin-bottom: 2em; }
 
 /*# sourceMappingURL=demo.css.map */
