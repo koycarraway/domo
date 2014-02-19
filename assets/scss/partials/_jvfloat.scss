@@ -1,0 +1,85 @@
+
+// Default jvFloat Theme
+
+.jvFloat {
+	position: relative;
+	display: block;
+	margin-top: 1em;
+}
+
+.jvFloat .placeHolder.required {
+	color: $red;
+}
+
+/* Start CSS3 Animations on supported browser */
+.jvFloat .placeHolder {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: auto;
+	color: $brand-color;
+	@include font-size(11);
+	font-weight: 700;
+	text-transform: uppercase;
+	// @include transform(translate(0, 0));
+	// @include transition(transform 150ms, opacity 100ms, visibility 100ms);
+	-webkit-transform: translate(0, 0);
+	-moz-transform: translate(0, 0);
+	-o-transform: translate(0, 0);
+	-ms-transform: translate(0, 0);
+	transform: translate(0, 0);
+	-webkit-transition: -webkit-transform 150ms, opacity 100ms, visibility 100ms;
+	transition: transform 150ms, opacity 100ms, visibility 100ms;
+	opacity: 0;
+	visibility: hidden;
+}
+.jvFloat .placeHolder.active {
+	display: block;
+	visibility: visible;
+	// @include transform(translate(0, -1em));
+	// @include transition(transform 100ms, opacity 120ms, visibility 120ms);
+	-webkit-transform: translate(0, -1em);
+	-moz-transform: translate(0, -1em);
+	-o-transform: translate(0, -1em);
+	-ms-transform: translate(0, -1em);
+	transform: translate(0, -1em);
+	-webkit-transition: -webkit-transform 100ms, opacity 120ms, visibility 120ms;
+	transition: transform 100ms, opacity 120ms, visibility 120ms;
+	opacity: 1;
+}
+
+
+// Legacy Browser Support
+.lt-ie9 {
+	.jvFloat .placeHolder {
+		position: absolute;
+		top: -1em;
+		left: 0;
+		color: $brand-color;
+		@include font-size(12);
+		font-weight: 700;
+		opacity: 0;
+		visibility: hidden;
+	}
+
+	.jvFloat .placeHolder.active {
+		display: block;
+		visibility: visible;
+		opacity: 1;
+	}
+}
+
+
+/* Demo Override
+ also shows how to override JVFloat's default theme
+*/
+input:focus {
+    box-shadow: none !important;
+}
+.jvFloat .placeHolder.active {
+	-webkit-transform: translate(0, -1.5em);
+	-moz-transform: translate(0, -1.5em);
+	-o-transform: translate(0, -1.5em);
+	-ms-transform: translate(0, -1.5em);
+	transform: translate(0, -1em);
+}
