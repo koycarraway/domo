@@ -438,51 +438,52 @@ td {
 h1, h2, h3, h4, h5, h6 {
   font-family: "Avenir Next", Avenir, "Helvetica Neue", helvetica, sans-serif;
   font-weight: 400;
-  color: #222222; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_typography\.scss}line{font-family:\0000316}}
+  color: #222222;
+  text-rendering: optimizeLegibility; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_typography\.scss}line{font-family:\0000317}}
   h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
     text-decoration: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_typography\.scss}line{font-family:\0000321}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_typography\.scss}line{font-family:\0000322}}
 h1 small,
 h2 small {
   font-weight: normal;
   color: #ebebeb; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_typography\.scss}line{font-family:\0000331}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_typography\.scss}line{font-family:\0000332}}
 p {
   margin: 0 0 0.825; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_typography\.scss}line{font-family:\0000341}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_typography\.scss}line{font-family:\0000342}}
 a {
   color: #0074d9;
   text-decoration: none;
   -webkit-transition: color 0.2s linear;
   -moz-transition: color 0.2s linear;
   transition: color 0.2s linear; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_typography\.scss}line{font-family:\0000346}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_typography\.scss}line{font-family:\0000347}}
   a:visited {
     color: #b10dc9; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_typography\.scss}line{font-family:\0000350}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_typography\.scss}line{font-family:\0000351}}
   a:hover {
     color: #7fdbff; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_typography\.scss}line{font-family:\0000354}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_typography\.scss}line{font-family:\0000355}}
   a:active, a:focus {
     color: #ff851b;
     outline: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_typography\.scss}line{font-family:\0000364}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_typography\.scss}line{font-family:\0000365}}
 blockquote {
   margin: 0 0;
   padding-left: 0;
   border-left: 2px solid white;
   font-style: normal; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_typography\.scss}line{font-family:\0000371}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_typography\.scss}line{font-family:\0000372}}
 q {
   quotes: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_typography\.scss}line{font-family:\0000375}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_typography\.scss}line{font-family:\0000376}}
 blockquote:before,
 blockquote:after,
 q:before,
@@ -490,56 +491,56 @@ q:after {
   content: '';
   content: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_typography\.scss}line{font-family:\0000383}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_typography\.scss}line{font-family:\0000384}}
 cite {
   font-style: normal; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_typography\.scss}line{font-family:\0000392}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_typography\.scss}line{font-family:\0000393}}
 dl,
 dd {
   margin-bottom: 1.65; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_typography\.scss}line{font-family:\0000397}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_typography\.scss}line{font-family:\0000398}}
 dt {
   font-weight: bold; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_typography\.scss}line{font-family:\00003103}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_typography\.scss}line{font-family:\00003104}}
 .dl-horizontal dt {
   float: left;
   clear: left;
   width: 20.25%;
   text-align: right; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_typography\.scss}line{font-family:\00003110}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_typography\.scss}line{font-family:\00003111}}
 .dl-horizontal dd {
   margin-left: 22.78%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_typography\.scss}line{font-family:\00003120}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_typography\.scss}line{font-family:\00003121}}
 abbr[title] {
   border-bottom: 1px dotted white;
   cursor: help; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_typography\.scss}line{font-family:\00003125}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_typography\.scss}line{font-family:\00003126}}
 b, strong {
   font-weight: bold; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_typography\.scss}line{font-family:\00003129}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_typography\.scss}line{font-family:\00003130}}
 dfn {
   font-style: italic; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_typography\.scss}line{font-family:\00003133}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_typography\.scss}line{font-family:\00003134}}
 ins {
   background-color: white;
   color: #848c94;
   text-decoration: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_typography\.scss}line{font-family:\00003139}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_typography\.scss}line{font-family:\00003140}}
 mark {
   background-color: white;
   color: #848c94;
   font-style: italic;
   font-weight: bold; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_typography\.scss}line{font-family:\00003146}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_typography\.scss}line{font-family:\00003147}}
 pre,
 code,
 kbd,
@@ -549,13 +550,13 @@ samp {
   font-size: 0.77778rem;
   line-height: 1.65; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_typography\.scss}line{font-family:\00003155}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_typography\.scss}line{font-family:\00003156}}
 pre {
   white-space: pre;
   white-space: pre-wrap;
   word-wrap: break-word; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_typography\.scss}line{font-family:\00003161}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_typography\.scss}line{font-family:\00003162}}
 sub,
 sup {
   position: relative;
@@ -564,11 +565,11 @@ sup {
   line-height: 0;
   vertical-align: baselineheight; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_typography\.scss}line{font-family:\00003169}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_typography\.scss}line{font-family:\00003170}}
 sup {
   top: -0.5em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_typography\.scss}line{font-family:\00003173}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_typography\.scss}line{font-family:\00003174}}
 sub {
   bottom: -0.25em; }
 
@@ -637,12 +638,761 @@ img {
     display: table;
     clear: both; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/demo\.scss}line{font-family:\000036}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_forms\.scss}line{font-family:\000037}}
+input, textarea {
+  border: none;
+  outline: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_forms\.scss}line{font-family:\000039}}
+form {
+  font-family: "Avenir Next", Avenir, "Helvetica Neue", helvetica, sans-serif;
+  width: 100%;
+  margin: 0 auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/CodeKit\%202\.app\/Contents\/Resources\/engines\/bourbon\/bourbon\/app\/assets\/stylesheets\/addons\/_clearfix\.scss}line{font-family:\0000315}}
+  form:after {
+    content: "";
+    display: table;
+    clear: both; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_forms\.scss}line{font-family:\0000315}}
+  form .form-field {
+    display: block;
+    height: auto;
+    margin-bottom: 1.5em;
+    padding: 0 1em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/CodeKit\%202\.app\/Contents\/Resources\/engines\/bourbon\/bourbon\/app\/assets\/stylesheets\/addons\/_clearfix\.scss}line{font-family:\0000315}}
+    form .form-field:after {
+      content: "";
+      display: table;
+      clear: both; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_forms\.scss}line{font-family:\0000323}}
+    form .form-field label {
+      font-size: 13px;
+      font-size: 0.72222rem;
+      font-weight: 600;
+      color: #585451;
+      text-align: left;
+      margin: 0 0 .1em;
+      display: inline-block;
+      padding: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_forms\.scss}line{font-family:\0000334}}
+    form .form-field em {
+      color: #0074d9;
+      font-weight: 300;
+      display: inline-block;
+      font-size: 16px;
+      font-size: 0.88889rem;
+      font-style: normal; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_forms\.scss}line{font-family:\0000343}}
+  form input[type=text], form input[type=email], form input[type=url], form input[type=tel], form textarea {
+    position: relative;
+    padding: .5em 0;
+    background: #fff;
+    border: none;
+    border-bottom: 1px solid #eaeaea;
+    line-height: 1.5em;
+    border-radius: 0;
+    height: 2.5em;
+    font-family: "Avenir Next", Avenir, "Helvetica Neue", helvetica, sans-serif;
+    color: #585451;
+    font-size: 15px;
+    font-size: 0.83333rem;
+    font-weight: 500;
+    float: left;
+    margin: 0;
+    width: 100%;
+    -webkit-transition: padding 0.1s ease-in-out;
+    -moz-transition: padding 0.1s ease-in-out;
+    transition: padding 0.1s ease-in-out; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/CodeKit\%202\.app\/Contents\/Resources\/engines\/bourbon\/bourbon\/app\/assets\/stylesheets\/css3\/_placeholder\.scss}line{font-family:\000034}}
+    form input[type=text]::-webkit-input-placeholder, form input[type=email]::-webkit-input-placeholder, form input[type=url]::-webkit-input-placeholder, form input[type=tel]::-webkit-input-placeholder, form textarea::-webkit-input-placeholder {
+      color: #ccc;
+      padding-left: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/CodeKit\%202\.app\/Contents\/Resources\/engines\/bourbon\/bourbon\/app\/assets\/stylesheets\/css3\/_placeholder\.scss}line{font-family:\000034}}
+    form input[type=text]::-moz-placeholder, form input[type=email]::-moz-placeholder, form input[type=url]::-moz-placeholder, form input[type=tel]::-moz-placeholder, form textarea::-moz-placeholder {
+      color: #ccc;
+      padding-left: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/CodeKit\%202\.app\/Contents\/Resources\/engines\/bourbon\/bourbon\/app\/assets\/stylesheets\/css3\/_placeholder\.scss}line{font-family:\000034}}
+    form input[type=text]:-moz-placeholder, form input[type=email]:-moz-placeholder, form input[type=url]:-moz-placeholder, form input[type=tel]:-moz-placeholder, form textarea:-moz-placeholder {
+      color: #ccc;
+      padding-left: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/CodeKit\%202\.app\/Contents\/Resources\/engines\/bourbon\/bourbon\/app\/assets\/stylesheets\/css3\/_placeholder\.scss}line{font-family:\000034}}
+    form input[type=text]:-ms-input-placeholder, form input[type=email]:-ms-input-placeholder, form input[type=url]:-ms-input-placeholder, form input[type=tel]:-ms-input-placeholder, form textarea:-ms-input-placeholder {
+      color: #ccc;
+      padding-left: 0; }
+    @media screen and (min-width: 40em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_forms\.scss}line{font-family:\0000343}}
+      form input[type=text], form input[type=email], form input[type=url], form input[type=tel], form textarea {
+        font-size: 18px;
+        font-size: 1rem; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_forms\.scss}line{font-family:\0000370}}
+    form input[type=text]:focus, form input[type=email]:focus, form input[type=url]:focus, form input[type=tel]:focus, form textarea:focus {
+      background: #f6f6f6;
+      border-bottom: 1px solid #0074d9;
+      box-shadow: none;
+      color: #0074d9;
+      padding-left: .8em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_forms\.scss}line{font-family:\0000379}}
+  form input[type=text], form input[type=email], form input[type=url], form input[type=type] {
+    min-width: 150px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_forms\.scss}line{font-family:\0000384}}
+  form textarea {
+    resize: none;
+    height: 150px;
+    width: 100%;
+    line-height: 1.3; }
+    @media screen and (min-width: 40em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_forms\.scss}line{font-family:\0000384}}
+      form textarea {
+        height: 150px; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_forms\.scss}line{font-family:\0000395}}
+  form button.progress-button {
+    margin-top: 1em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_forms\.scss}line{font-family:\0000399}}
+  form ::-webkit-input-placeholder {
+    font-family: "Avenir Next", Avenir, "Helvetica Neue", helvetica, sans-serif;
+    color: #ccc;
+    font-size: 15px;
+    font-size: 0.83333rem;
+    font-weight: 400; }
+    @media screen and (min-width: 40em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_forms\.scss}line{font-family:\0000399}}
+      form ::-webkit-input-placeholder {
+        font-size: 18px;
+        font-size: 1rem; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_forms\.scss}line{font-family:\00003109}}
+  form :-moz-placeholder {
+    color: #ccc; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_forms\.scss}line{font-family:\00003110}}
+  form :-ms-input-placeholder {
+    color: #ccc; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_forms\.scss}line{font-family:\00003112}}
+  form select {
+    font-size: 18px;
+    font-size: 1rem;
+    margin: 0;
+    border: 1px solid #eaeaea;
+    background: #fff;
+    font-weight: 300;
+    border-radius: 4px;
+    color: #585451;
+    box-shadow: none;
+    outline: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_jvfloat\.scss}line{font-family:\000034}}
+.jvFloat {
+  position: relative;
+  display: block;
+  margin-top: 1em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_jvfloat\.scss}line{font-family:\0000310}}
+.jvFloat .placeHolder.required {
+  color: #ff4136; }
+
+/* Start CSS3 Animations on supported browser */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_jvfloat\.scss}line{font-family:\0000315}}
+.jvFloat .placeHolder {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: auto;
+  color: #0074d9;
+  font-size: 11px;
+  font-size: 0.61111rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  -webkit-transform: translate(0, 0);
+  -moz-transform: translate(0, 0);
+  -o-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  transform: translate(0, 0);
+  -webkit-transition: -webkit-transform 150ms, opacity 100ms, visibility 100ms;
+  transition: transform 150ms, opacity 100ms, visibility 100ms;
+  opacity: 0;
+  visibility: hidden; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_jvfloat\.scss}line{font-family:\0000336}}
+.jvFloat .placeHolder.active {
+  display: block;
+  visibility: visible;
+  -webkit-transform: translate(0, -1em);
+  -moz-transform: translate(0, -1em);
+  -o-transform: translate(0, -1em);
+  -ms-transform: translate(0, -1em);
+  transform: translate(0, -1em);
+  -webkit-transition: -webkit-transform 100ms, opacity 120ms, visibility 120ms;
+  transition: transform 100ms, opacity 120ms, visibility 120ms;
+  opacity: 1; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_jvfloat\.scss}line{font-family:\0000354}}
+.lt-ie9 .jvFloat .placeHolder {
+  position: absolute;
+  top: -1em;
+  left: 0;
+  color: #0074d9;
+  font-size: 12px;
+  font-size: 0.66667rem;
+  font-weight: 700;
+  opacity: 0;
+  visibility: hidden; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_jvfloat\.scss}line{font-family:\0000365}}
+.lt-ie9 .jvFloat .placeHolder.active {
+  display: block;
+  visibility: visible;
+  opacity: 1; }
+
+/* Demo Override
+ also shows how to override JVFloat's default theme
+*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_jvfloat\.scss}line{font-family:\0000376}}
+input:focus {
+  box-shadow: none !important; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_jvfloat\.scss}line{font-family:\0000379}}
+.jvFloat .placeHolder.active {
+  -webkit-transform: translate(0, -1.5em);
+  -moz-transform: translate(0, -1.5em);
+  -o-transform: translate(0, -1.5em);
+  -ms-transform: translate(0, -1.5em);
+  transform: translate(0, -1em); }
+
+/*
+Version: 3.4.5 Timestamp: Mon Nov  4 08:22:42 PST 2013
+*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_select2\.scss}line{font-family:\000034}}
+.select2-container {
+  margin: 0;
+  position: relative;
+  display: inline-block;
+  /* inline-block for ie7 */
+  zoom: 1;
+  *display: inline;
+  vertical-align: middle; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_select2\.scss}line{font-family:\0000315}}
+.select2-container .select2-choice {
+  display: block;
+  height: 26px;
+  padding: 0 0 0 8px;
+  overflow: hidden;
+  position: relative;
+  border: 1px solid #aaa;
+  white-space: nowrap;
+  line-height: 26px;
+  color: #444;
+  text-decoration: none;
+  border-radius: 4px;
+  background-clip: padding-box;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: #2ecc40; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_select2\.scss}line{font-family:\0000336}}
+.select2-container.select2-drop-above .select2-choice {
+  border-bottom-color: #aaa;
+  border-radius: 0 0 4px 4px;
+  background: #ff4136; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_select2\.scss}line{font-family:\0000342}}
+.select2-container.select2-allowclear .select2-choice .select2-chosen {
+  margin-right: 42px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_select2\.scss}line{font-family:\0000346}}
+.select2-container .select2-choice > .select2-chosen {
+  margin-right: 26px;
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_select2\.scss}line{font-family:\0000354}}
+.select2-container .select2-choice abbr {
+  display: none;
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  right: 24px;
+  top: 8px;
+  font-size: 1px;
+  text-decoration: none;
+  border: 0;
+  background: url("../img/select2.png") right top no-repeat;
+  cursor: pointer;
+  outline: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_select2\.scss}line{font-family:\0000369}}
+.select2-container.select2-allowclear .select2-choice abbr {
+  display: inline-block; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_select2\.scss}line{font-family:\0000373}}
+.select2-container .select2-choice abbr:hover {
+  background-position: right -11px;
+  cursor: pointer; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_select2\.scss}line{font-family:\0000378}}
+.select2-drop-mask {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  left: 0;
+  top: 0;
+  min-height: 100%;
+  min-width: 100%;
+  height: auto;
+  width: auto;
+  opacity: 0;
+  z-index: 9998;
+  /* styles required for IE to work */
+  background-color: #fff;
+  filter: alpha(opacity=0); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_select2\.scss}line{font-family:\0000396}}
+.select2-drop {
+  width: 100%;
+  margin-top: -1px;
+  position: absolute;
+  z-index: 9999;
+  top: 100%;
+  background: #fff;
+  color: #000;
+  border: 1px solid #aaa;
+  border-top: 0;
+  border-radius: 0 0 4px 4px;
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.15); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_select2\.scss}line{font-family:\00003110}}
+.select2-drop-auto-width {
+  border-top: 1px solid #aaa;
+  width: auto; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_select2\.scss}line{font-family:\00003115}}
+.select2-drop-auto-width .select2-search {
+  padding-top: 4px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_select2\.scss}line{font-family:\00003119}}
+.select2-drop.select2-drop-above {
+  margin-top: 1px;
+  border-top: 1px solid #aaa;
+  border-bottom: 0;
+  border-radius: 4px 4px 0 0;
+  box-shadow: 0 -4px 5px rgba(0, 0, 0, 0.15); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_select2\.scss}line{font-family:\00003127}}
+.select2-drop-active {
+  border: 1px solid #ff4136;
+  border-top: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_select2\.scss}line{font-family:\00003132}}
+.select2-drop.select2-drop-above.select2-drop-active {
+  border-top: 1px solid #ff4136; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_select2\.scss}line{font-family:\00003136}}
+.select2-container .select2-choice .select2-arrow {
+  display: inline-block;
+  width: 18px;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  border-left: 1px solid #ddd;
+  border-radius: 0 4px 4px 0;
+  background-clip: padding-box;
+  background: #f4f4f4; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_select2\.scss}line{font-family:\00003149}}
+.select2-container .select2-choice .select2-arrow b {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: url("../img/select2.png") no-repeat; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_select2\.scss}line{font-family:\00003156}}
+.select2-search {
+  display: inline-block;
+  width: 100%;
+  min-height: 26px;
+  margin: 0;
+  padding-left: 4px;
+  padding-right: 4px;
+  position: relative;
+  z-index: 10000;
+  white-space: nowrap; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_select2\.scss}line{font-family:\00003168}}
+.select2-search input {
+  width: 100%;
+  height: auto !important;
+  min-height: 26px;
+  padding: 4px 20px 4px 5px;
+  margin: 0;
+  outline: 0;
+  font-family: sans-serif;
+  font-size: 1em;
+  border: 1px solid #aaa;
+  border-radius: 0;
+  box-shadow: none;
+  background: white url("../img/select2.png") no-repeat 100% -22px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_select2\.scss}line{font-family:\00003183}}
+.select2-drop.select2-drop-above .select2-search input {
+  margin-top: 4px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_select2\.scss}line{font-family:\00003187}}
+.select2-search input.select2-active {
+  background: white url("../img/select2-spinner.gif") no-repeat 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_select2\.scss}line{font-family:\00003191}}
+.select2-container-active .select2-choice,
+.select2-container-active .select2-choices {
+  border: 1px solid #b10dc9;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_select2\.scss}line{font-family:\00003198}}
+.select2-dropdown-open .select2-choice {
+  border-bottom-color: transparent;
+  box-shadow: 0 1px 0 #fff inset;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  background-color: #ffdc00; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_select2\.scss}line{font-family:\00003206}}
+.select2-dropdown-open.select2-drop-above .select2-choice,
+.select2-dropdown-open.select2-drop-above .select2-choices {
+  border: 1px solid #7fdbff;
+  border-top-color: transparent; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_select2\.scss}line{font-family:\00003212}}
+.select2-dropdown-open .select2-choice .select2-arrow {
+  background: transparent;
+  border-left: none;
+  filter: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_select2\.scss}line{font-family:\00003217}}
+.select2-dropdown-open .select2-choice .select2-arrow b {
+  background-position: -18px 1px; }
+
+/* results */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_select2\.scss}line{font-family:\00003222}}
+.select2-results {
+  max-height: 200px;
+  padding: 0 0 0 4px;
+  margin: 4px 4px 4px 0;
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: auto;
+  -webkit-tap-highlight-color: transparent; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_select2\.scss}line{font-family:\00003232}}
+.select2-results ul.select2-result-sub {
+  margin: 0;
+  padding-left: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_select2\.scss}line{font-family:\00003237}}
+.select2-results ul.select2-result-sub > li .select2-result-label {
+  padding-left: 20px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_select2\.scss}line{font-family:\00003238}}
+.select2-results ul.select2-result-sub ul.select2-result-sub > li .select2-result-label {
+  padding-left: 40px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_select2\.scss}line{font-family:\00003239}}
+.select2-results ul.select2-result-sub ul.select2-result-sub ul.select2-result-sub > li .select2-result-label {
+  padding-left: 60px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_select2\.scss}line{font-family:\00003240}}
+.select2-results ul.select2-result-sub ul.select2-result-sub ul.select2-result-sub ul.select2-result-sub > li .select2-result-label {
+  padding-left: 80px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_select2\.scss}line{font-family:\00003241}}
+.select2-results ul.select2-result-sub ul.select2-result-sub ul.select2-result-sub ul.select2-result-sub ul.select2-result-sub > li .select2-result-label {
+  padding-left: 100px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_select2\.scss}line{font-family:\00003242}}
+.select2-results ul.select2-result-sub ul.select2-result-sub ul.select2-result-sub ul.select2-result-sub ul.select2-result-sub ul.select2-result-sub > li .select2-result-label {
+  padding-left: 110px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_select2\.scss}line{font-family:\00003243}}
+.select2-results ul.select2-result-sub ul.select2-result-sub ul.select2-result-sub ul.select2-result-sub ul.select2-result-sub ul.select2-result-sub ul.select2-result-sub > li .select2-result-label {
+  padding-left: 120px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_select2\.scss}line{font-family:\00003245}}
+.select2-results li {
+  list-style: none;
+  display: list-item;
+  background-image: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_select2\.scss}line{font-family:\00003251}}
+.select2-results li.select2-result-with-children > .select2-result-label {
+  font-weight: bold; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_select2\.scss}line{font-family:\00003255}}
+.select2-results .select2-result-label {
+  padding: 3px 7px 4px;
+  margin: 0;
+  cursor: pointer;
+  min-height: 1em;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_select2\.scss}line{font-family:\00003269}}
+.select2-results .select2-highlighted {
+  background: #0074d9;
+  color: #fff; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_select2\.scss}line{font-family:\00003274}}
+.select2-results li em {
+  background: #feffde;
+  font-style: normal; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_select2\.scss}line{font-family:\00003279}}
+.select2-results .select2-highlighted em {
+  background: transparent; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_select2\.scss}line{font-family:\00003283}}
+.select2-results .select2-highlighted ul {
+  background: #ff851b;
+  color: #000; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_select2\.scss}line{font-family:\00003289}}
+.select2-results .select2-no-results,
+.select2-results .select2-searching,
+.select2-results .select2-selection-limit {
+  background: #ff851b;
+  display: list-item; }
+
+/*
+disabled look for disabled choices in the results dropdown
+*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_select2\.scss}line{font-family:\00003299}}
+.select2-results .select2-disabled.select2-highlighted {
+  color: #666;
+  background: #ff851b;
+  display: list-item;
+  cursor: default; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_select2\.scss}line{font-family:\00003305}}
+.select2-results .select2-disabled {
+  background: #ff851b;
+  display: list-item;
+  cursor: default; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_select2\.scss}line{font-family:\00003311}}
+.select2-results .select2-selected {
+  display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_select2\.scss}line{font-family:\00003315}}
+.select2-more-results.select2-active {
+  background: #ff851b url("select2-spinner.gif") no-repeat 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_select2\.scss}line{font-family:\00003319}}
+.select2-more-results {
+  background: #f4f4f4;
+  display: list-item; }
+
+/* disabled styles */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_select2\.scss}line{font-family:\00003326}}
+.select2-container.select2-container-disabled .select2-choice {
+  background-color: #f4f4f4;
+  background-image: none;
+  border: 1px solid #ddd;
+  cursor: default; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_select2\.scss}line{font-family:\00003333}}
+.select2-container.select2-container-disabled .select2-choice .select2-arrow {
+  background-color: #f4f4f4;
+  background-image: none;
+  border-left: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_select2\.scss}line{font-family:\00003339}}
+.select2-container.select2-container-disabled .select2-choice abbr {
+  display: none; }
+
+/* multiselect */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_select2\.scss}line{font-family:\00003345}}
+.select2-container-multi .select2-choices {
+  height: auto !important;
+  height: 1%;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  border: 1px solid #aaa;
+  cursor: text;
+  overflow: hidden;
+  background-color: #fff; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_select2\.scss}line{font-family:\00003357}}
+.select2-locked {
+  padding: 3px 5px 3px 5px !important; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_select2\.scss}line{font-family:\00003361}}
+.select2-container-multi .select2-choices {
+  min-height: 26px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_select2\.scss}line{font-family:\00003365}}
+.select2-container-multi.select2-container-active .select2-choices {
+  border: 1px solid #5897fb;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_select2\.scss}line{font-family:\00003371}}
+.select2-container-multi .select2-choices li {
+  float: left;
+  list-style: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_select2\.scss}line{font-family:\00003376}}
+.select2-container-multi .select2-choices .select2-search-field {
+  margin: 0;
+  padding: 0;
+  white-space: nowrap; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_select2\.scss}line{font-family:\00003382}}
+.select2-container-multi .select2-choices .select2-search-field input {
+  padding: 5px;
+  margin: 1px 0;
+  font-family: sans-serif;
+  font-size: 100%;
+  color: #666;
+  outline: 0;
+  border: 0;
+  box-shadow: none;
+  background: transparent !important; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_select2\.scss}line{font-family:\00003394}}
+.select2-container-multi .select2-choices .select2-search-field input.select2-active {
+  background: white url("select2-spinner.gif") no-repeat 100% !important; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_select2\.scss}line{font-family:\00003398}}
+.select2-default {
+  color: #999 !important; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_select2\.scss}line{font-family:\00003402}}
+.select2-container-multi .select2-choices .select2-search-choice {
+  padding: 3px 5px 3px 18px;
+  margin: 3px 0 3px 5px;
+  position: relative;
+  line-height: 13px;
+  color: #333;
+  cursor: default;
+  border: 1px solid #aaaaaa;
+  border-radius: 3px;
+  box-shadow: 0 0 2px white inset, 0 1px 0 rgba(0, 0, 0, 0.05);
+  background-clip: padding-box;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: #e4e4e4; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_select2\.scss}line{font-family:\00003420}}
+.select2-container-multi .select2-choices .select2-search-choice .select2-chosen {
+  cursor: default; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_select2\.scss}line{font-family:\00003423}}
+.select2-container-multi .select2-choices .select2-search-choice-focus {
+  background: #d4d4d4; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_select2\.scss}line{font-family:\00003427}}
+.select2-search-choice-close {
+  display: block;
+  width: 12px;
+  height: 13px;
+  position: absolute;
+  right: 3px;
+  top: 4px;
+  font-size: 1px;
+  outline: none;
+  background: url("../img/select2.png") right top no-repeat; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_select2\.scss}line{font-family:\00003439}}
+.select2-container-multi .select2-search-choice-close {
+  left: 3px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_select2\.scss}line{font-family:\00003443}}
+.select2-container-multi .select2-choices .select2-search-choice .select2-search-choice-close:hover {
+  background-position: right -11px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_select2\.scss}line{font-family:\00003446}}
+.select2-container-multi .select2-choices .select2-search-choice-focus .select2-search-choice-close {
+  background-position: right -11px; }
+
+/* disabled styles */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_select2\.scss}line{font-family:\00003451}}
+.select2-container-multi.select2-container-disabled .select2-choices {
+  background-color: #f4f4f4;
+  background-image: none;
+  border: 1px solid #ddd;
+  cursor: default; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_select2\.scss}line{font-family:\00003458}}
+.select2-container-multi.select2-container-disabled .select2-choices .select2-search-choice {
+  padding: 3px 5px 3px 5px;
+  border: 1px solid #ddd;
+  background-image: none;
+  background-color: #f4f4f4; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_select2\.scss}line{font-family:\00003465}}
+.select2-container-multi.select2-container-disabled .select2-choices .select2-search-choice .select2-search-choice-close {
+  display: none;
+  background: none; }
+
+/* end multiselect */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_select2\.scss}line{font-family:\00003471}}
+.select2-result-selectable .select2-match,
+.select2-result-unselectable .select2-match {
+  text-decoration: underline; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_select2\.scss}line{font-family:\00003476}}
+.select2-offscreen, .select2-offscreen:focus {
+  clip: rect(0 0 0 0) !important;
+  width: 1px !important;
+  height: 1px !important;
+  border: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow: hidden !important;
+  position: absolute !important;
+  outline: 0 !important;
+  left: 0px !important;
+  top: 0px !important; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_select2\.scss}line{font-family:\00003490}}
+.select2-display-none {
+  display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_select2\.scss}line{font-family:\00003494}}
+.select2-measure-scrollbar {
+  position: absolute;
+  top: -10000px;
+  left: -10000px;
+  width: 100px;
+  height: 100px;
+  overflow: scroll; }
+
+/* Retina-ize icons */
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_select2\.scss}line{font-family:\00003505}}
+  .select2-search input, .select2-search-choice-close, .select2-container .select2-choice abbr, .select2-container .select2-choice .select2-arrow b {
+    background-image: url("../img/select2x2.png") !important;
+    background-repeat: no-repeat !important;
+    background-size: 60px 40px !important; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/partials\/_select2\.scss}line{font-family:\00003510}}
+  .select2-search input {
+    background-position: 100% -21px !important; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/demo\.scss}line{font-family:\000039}}
 .page-container {
   margin-top: 10em;
   text-align: center; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/demo\.scss}line{font-family:\0000311}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/demo\.scss}line{font-family:\0000314}}
 h1 {
   color: #0074d9;
   font-size: 92px;
@@ -652,7 +1402,7 @@ h1 {
   margin: .2em 0;
   font-weight: 900; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/demo\.scss}line{font-family:\0000320}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/demo\.scss}line{font-family:\0000323}}
 h2 {
   color: #b8b8b8;
   display: block;
