@@ -7,8 +7,8 @@
 
 $sans-serif               : 'Avenir Next', Avenir, 'Helvetica Neue', helvetica, sans-serif !default;
 $serif                    : 'PT Serif', Georgia, Cambria, 'Times New Roman', Times, serif !default;
-$typekit-sans             : "tenso", $sans-serif !default;
-$typekit-serif            : "athelas", $serif !default;
+$typekit-sans             : $sans-serif !default;
+$typekit-serif            : $serif !default;
 $code-font                : Monaco, 'Courier New', monospace !default;
 $heading-font             : $sans-serif !default;
 $heading-font-weight      : 400 !default;
