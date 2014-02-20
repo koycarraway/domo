@@ -55,22 +55,56 @@
   allowtransparency="true" frameborder="0" scrolling="0" width="62" height="20"></iframe>
       </section>
 
+      <section class="contain">
+        <form action="">
+
+          <div class="form-field">
+            <div class="jvFloat">
+              <span class="placeHolder">Name</span>
+              <input type="text" placeholder="Name" class="form-control">
+            </div>
+          </div>
+
+          <div class="form-field">
+            <div class="jvFloat">
+              <span class="placeHolder">Email</span>
+              <input type="text" placeholder="Email" class="form-control">
+            </div>
+          </div>
+
+          <div class="form-field">
+            <div class="jvFloat">
+              <span class="placeHolder">Required Input</span>
+              <input type="text" placeholder="Required Input" class="form-control" required>
+            </div>
+          </div>
+
+        </form>
+      </section>
+
+      <section class="contain">
+        <select id="e1">
+            <option value="AL">Alabama</option>
+            ...
+            <option value="WY">Wyoming</option>
+        </select>
+      </section>
+
     </div>
 
     <!-- Load jQuery CDN & Local Fallback -->
       <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
       <script>window.jQuery || document.write('<script src="dist/js/jquery.min.js"><\/script>')</script>
 
-    <!-- Google Analytics -->
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    <!-- Load jvFloat -->
+      <script src="dist/js/jvfloat.min.js"></script>
 
-      ga('create', 'XX-XXXXXXXX-X');
-      ga('send', 'pageview');
-    </script>
+    <!-- Load jvFloat -->
+      <script src="dist/js/select2.min.js"></script>
+
+    <!-- Load myscripts.js -->
+      <script src="dist/js/myscripts.min.js"></script>
+
 
   </body>
 </html>
