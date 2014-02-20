@@ -16,8 +16,7 @@
   $border-box-sizing:     true;
 
 // Breakpoints
-  $medium:                new-breakpoint(min-width 30em 8);    // 480px -> 640px
-  $large:                 new-breakpoint(min-width 40em 8);    // 640px -> 960px
-  $xlarge:                new-breakpoint(min-width 60em 12);   // 960px -> 1280px
-  $giant:                 new-breakpoint(min-width 80em 12);   // 1280px -> Limit
-
+  $medium:                new-breakpoint(min-width em(480) 6);    // 480px -> 640px
+  $large:                 new-breakpoint(min-width em(640) 8);    // 640px -> 960px
+  $xlarge:                new-breakpoint(min-width em(960) 12);   // 960px -> 1280px
+  $giant:                 new-breakpoint(min-width em(1280) 12);  // 1280px -> Limit
