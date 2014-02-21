@@ -1,1 +1,1 @@
-{"version":3,"file":"/Users/Koy/Sites/domo/dist/js/myscripts.min.js","sources":["assets/js/myscripts.js"],"names":["$","jvFloat","document","ready","select2"],"mappings":"AAEAA,EAAE,SAASC,UAEXD,EAAEE,UAAUC,MAAM,WAChBH,EAAE,OAAOI","sourceRoot":"./../../"}
+{"version":3,"file":"/Users/Koy/Sites/domo/dist/js/myscripts.min.js","sources":["assets/js/myscripts.js"],"names":["$","jvFloat","document","ready","select2","placeholder","allowClear"],"mappings":"AAEAA,EAAE,SAASC,UAEXD,EAAEE,UAAUC,MAAM,WAChBH,EAAE,UAAUI,SAEVC,YAAa,iBACbC,YAAY","sourceRoot":"./../../"}

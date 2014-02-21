@@ -4,7 +4,6 @@
 // ==========================================================================
 
 
-
 // Headings (h1-h6)
 // --------------------------------------------------------------------------
 
@@ -13,10 +12,6 @@
     font-weight: $heading-font_weight;
     color: $heading_color;
     text-rendering: optimizeLegibility;
-
-    a {
-      text-decoration: none;
-    }
   }
 
   h1 small,
@@ -32,8 +27,6 @@
   p {
     margin: 0 0 ($base-line-height * .5);
   }
-
-
 
 
 // Link Styles
@@ -164,7 +157,7 @@
     position: relative;
     @include font-size(12);
     line-height: 0;
-    vertical-align: baselineheight;
+    vertical-align: $base-line-height;
   }
 
   sup {

@@ -1,0 +1,16 @@
+
+// Base Styling
+
+body {
+  font-family: $sans-serif;
+  color: $brand-color;
+  @extend %font-smoothing;  // Webkit font smoothing (optionl)
+}
+
+img, object, embed { margin: 0; max-width: 100%; height: auto; }
+object, embed { height: 100%; }
+img { vertical-align: middle; }
+
+// Text Selection Highlight Color
+::selection { background-color: $brand_color; color: $white; text-shadow: none; }
+::-moz-selection { background-color: $brand_color; color: $white; text-shadow: none; }

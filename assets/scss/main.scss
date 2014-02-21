@@ -34,20 +34,25 @@
 // --------------------------------------------------------------------------
 
   // Core Modules and Variables
-  @import "modules/base-colors";
-  @import "modules/social-colors";
-  @import "modules/typography-vars";
+  @import "color/base-colors";
+  @import "color/social-colors";
+  @import "typography/typography-vars";
   @import "modules/mixins";
-  @import "modules/patterns";
+  @import "modules/extends";
 
   // Import Bourbon & Neat Grid System
   @import "bourbon";
-  @import "modules/grid-settings";
+  @import "layout/grid-settings";
   @import "neat";
+  @import "layout/layout";
 
   // Partials
   @import "../../bower_components/modularized-normalize-scss/normalize";
-  @import "partials/typography";
+  @import "typography/typography";
+  @import "forms/forms";
+  @import "partials/jvfloat";
+  @import "partials/select2";
 
   // Site Styles
-  @import "style";
+  @import "base";
+  @import "demo";

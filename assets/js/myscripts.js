@@ -3,5 +3,9 @@
 $('input').jvFloat();
 
 $(document).ready(function() {
-  $("#e1").select2();
+  $('select').select2({
+    // minimumResultsForSearch: -1,
+    placeholder: "Select a State",
+    allowClear: true
+  });
 });
