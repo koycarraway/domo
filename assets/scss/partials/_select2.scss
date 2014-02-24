@@ -1,18 +1,29 @@
 
 // Version: 3.4.5 Timestamp: Mon Nov  4 08:22:42 PST 2013
 
-$dropdown-border: none;
-$dropdown-border-active: none;
-$dropdown-closed: #E6E6E6;
-$dropdown-open: darken($dropdown-closed, 5%);
-$dropdown-closed-height: 2.75em;
-$dropdown-default-width: 15em;
+$dd-border-color: transparent;
+$dd-border-active: none;
+
+$dd-choice-bg-color: $brand-color;
+$dd-choice-height: 2.5em;
+
+$dd-open: darken($dd-choice-bg-color, 8%);
+$dd-open-bg-color: #323232;
+
+$dd-default-width: 15em;
+
+$dd-chosen-label-color: $white;
+$dd-result-label-color: $white;
+$dd-result-highlighted: $brand-color;
+
+$dd-chosen-font-size: 19;
+$dd-result-font-size: 19;
 
 .select2-container {
   margin: 0;
   position: relative;
   display: inline-block;
-  width: $dropdown-default-width;
+  width: $dd-default-width;
   /* inline-block for ie7 */
   zoom: 1;
   *display: inline;
@@ -23,26 +34,25 @@ $dropdown-default-width: 15em;
 
 .select2-container .select2-choice {
   display: block;
-  height: $dropdown-closed-height;
-  padding: 0 0 0 8px;
+  height: $dd-choice-height;
+  padding: 0 0 0 .5em;
   overflow: hidden;
   position: relative;
-  border: 1px solid $dropdown-border;
   white-space: nowrap;
-  line-height: $dropdown-closed-height;
+  line-height: $dd-choice-height;
   color: #444;
   text-decoration: none;
-  border-radius: 4px;
-  background-clip: padding-box;
   @include user-select(none);
-  background-color: $dropdown-closed;
+  background-color: $dd-choice-bg-color;
   text-align: left;
+  @include transition(all .2s ease-in-out);
+  @include font-size($dd-chosen-font-size);
 }
 
 .select2-container.select2-drop-above .select2-choice {
-  border-bottom-color: #aaa;
-  border-radius: 0 0 4px 4px;
-  background: $dropdown-border-active;
+  // border-bottom-color: #aaa;
+  // border-radius: 0 0 4px 4px;
+  background: $dd-border-active;
 }
 
 .select2-container.select2-allowclear .select2-choice .select2-chosen {
@@ -55,6 +65,7 @@ $dropdown-default-width: 15em;
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
+  color: $dd-chosen-label-color;
 }
 
 .select2-container .select2-choice abbr {
@@ -107,7 +118,6 @@ $dropdown-default-width: 15em;
   top: 100%;
   background: #fff;
   color: #000;
-  border: 1px solid #aaa;
   border-top: 0;
   border-radius: 0 0 4px 4px;
   box-shadow: none;
@@ -132,12 +142,12 @@ $dropdown-default-width: 15em;
 
 
 .select2-drop-active {
-  border: 1px solid $dropdown-border-active;
+  // border: 1px solid $dd-border-active;
   border-top: none;
 }
 
 .select2-drop.select2-drop-above.select2-drop-active {
-  border-top: 1px solid $dropdown-border-active;
+  // border-top: 1px solid $dd-border-active;
 }
 
 .select2-container .select2-choice .select2-arrow {
@@ -147,14 +157,15 @@ $dropdown-default-width: 15em;
   position: absolute;
   right: 0;
   top: 0;
-  border-radius: 0 4px 4px 0;
-  background-clip: padding-box;
+  overflow: hidden;
 }
 
 .select2-container .select2-choice .select2-arrow b {
     display: block;
     width: 100%;
     height: 100%;
+    position: relative;
+    top: 7px;
     background: url('../img/select2.png') no-repeat;
 }
 
@@ -163,8 +174,7 @@ $dropdown-default-width: 15em;
   width: 100%;
   min-height: 26px;
   margin: 0;
-  padding-left: 4px;
-  padding-right: 4px;
+  padding: 0;
   position: relative;
   z-index: 10000;
   white-space: nowrap;
@@ -177,9 +187,11 @@ $dropdown-default-width: 15em;
   padding: 4px 20px 4px 5px;
   margin: 0;
   outline: 0;
-  font-family: sans-serif;
-  font-size: 1em;
+  @include font-size(16);
+  font-weight: 500;
   border: 1px solid #aaa;
+  border-top: none;
+  border-bottom: none;
   border-radius: 0;
   box-shadow: none;
   background: #fff url('../img/select2.png') no-repeat 100% -22px;
@@ -195,7 +207,7 @@ $dropdown-default-width: 15em;
 
 .select2-container-active .select2-choice,
 .select2-container-active .select2-choices {
-  border: 1px solid $dropdown-border-active;
+  border: 1px solid $dd-border-active;
   outline: none;
   box-shadow: 0 0 5px rgba(0, 0, 0, .3);
 }
@@ -205,7 +217,7 @@ $dropdown-default-width: 15em;
   box-shadow: none;
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
-  background-color: $dropdown-open;
+  background-color: $dd-open;
 }
 
 .select2-dropdown-open.select2-drop-above .select2-choice,
@@ -225,13 +237,15 @@ $dropdown-default-width: 15em;
 
 /* results */
 .select2-results {
+    background: $dd-open-bg-color;
     max-height: 200px;
-    padding: 0 0 0 4px;
-    margin: 4px 4px 4px 0;
+    padding: 0;
+    margin: 0;
     position: relative;
     overflow-x: hidden;
     overflow-y: auto;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    @include font-size($dd-result-font-size);
 }
 
 .select2-results ul.select2-result-sub {
@@ -258,16 +272,21 @@ $dropdown-default-width: 15em;
 }
 
 .select2-results .select2-result-label {
-    padding: 3px 7px 4px;
+    padding: 0 .5em;
+    color: $dd-result-label-color;
+    font-weight: 500;
     margin: 0;
     cursor: pointer;
     min-height: 1em;
     @include user-select(none);
+    height: $dd-choice-height;
+    line-height: $dd-choice-height;
 }
 
 .select2-results .select2-highlighted {
-    background: $brand-color;
+    background: $dd-result-highlighted;
     color: #fff;
+    // @include transition(all .2s linear);
 }
 
 .select2-results li em {
