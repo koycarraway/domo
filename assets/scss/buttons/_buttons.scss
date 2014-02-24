@@ -1,6 +1,6 @@
 // Buttons
 
-.button {
+%button {
   font-family: inherit;
   font-weight: bold;
   text-decoration: none;
@@ -17,7 +17,3 @@
 
   // Add optional FF hack
 }
-
-.button-big { padding: 1rem 1.5rem; }
-
-.button-small { padding: 0 1rem; }
