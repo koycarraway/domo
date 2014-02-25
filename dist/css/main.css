@@ -45,7 +45,7 @@ body {
   overflow: auto;
   position: relative;
   width: 100%;
-  padding: 0 2%;
+  padding: 5em 2%;
   margin: 0; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Koy\/Sites\/domo\/assets\/scss\/layout\/_layout\.scss}line{font-family:\0000312}}
