@@ -478,8 +478,8 @@
 		"inputAbbreviatedPath": "\/bower_components\/JVFloat\/jvfloat.js",
 		"outputAbbreviatedPath": "\/dist\/js\/jvfloat.min.js",
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 2,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/JVFloat\/jvfloat.min.js": {
 		"fileType": 64,
@@ -1388,8 +1388,8 @@
 		"inputAbbreviatedPath": "\/bower_components\/select2\/select2.js",
 		"outputAbbreviatedPath": "\/dist\/js\/select2.min.js",
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 2,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/select2\/select2.min.js": {
 		"fileType": 64,
@@ -2140,10 +2140,10 @@
 	"bowerAbbreviatedPath": "",
 	"displayValue": "domo",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "brackets_darkGray"
+	"iconImageName": "compass_gray"
 	},
 "projectSettings": {
-	"alwaysUseExternalServer": 1,
+	"alwaysUseExternalServer": 0,
 	"animateCSSInjections": 1,
 	"autoApplyPSLanguageSettingsStyle": 0,
 	"autoprefixerBrowserString": "> 1%, last 2 versions, ff 17, opera 12.1",
@@ -2243,7 +2243,7 @@
 	"coffeeMinifyOutput": 1,
 	"coffeeOutputStyle": 0,
 	"coffeeSyntaxCheckerStyle": 1,
-	"externalServerAddress": "http:\/\/localhost\/domo\/",
+	"externalServerAddress": "http:\/\/",
 	"externalServerPreviewPathAddition": "",
 	"genericWebpageFileExtensionsString": "html, htm, shtml, shtm, xhtml, php, jsp, asp, aspx, erb, ctp",
 	"hamlAutoOutputPathRelativePath": "",
