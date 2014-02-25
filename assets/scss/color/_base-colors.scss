@@ -34,19 +34,19 @@
 
 // Brand Colors
 // --------------------------------------------------------------------------
-  $brand_color              : $green;
-  $brand_charcoal           : hsla(30, 4%, 33%, 1);
-  $brand_alt_color          : hsla(158, 49%, 49%, 1);
-  $brand_alt_color2         : hsla(56, 28%, 90%, 1);
+  $brand-color              : hsla(1, 100%, 64%, 1);
+  $brand-charcoal           : hsla(30, 4%, 33%, 1);
+  $brand-alt_color          : hsla(158, 49%, 49%, 1);
+  $brand-alt_color2         : hsla(56, 28%, 90%, 1);
   $steel                    : hsla(225, 6%, 14%, 1);
 
 
 // Base Color Assignments
 // --------------------------------------------------------------------------
-  $text_color               : hsla(212, 7%, 55%, 1);
-  $comp_color               : adjust-hue($brand-color, 180);
-  $border_color             : lighten($brand-color, 60%);
-  $heading-font_color       : $brand-charcoal;
+  $text-color               : hsla(212, 7%, 55%, 1);
+  $comp-color               : adjust-hue($brand-color, 180);
+  $border-color             : lighten($brand-color, 60%);
+  $heading-font-color       : $brand-charcoal;
 
 
 // Link Colors
