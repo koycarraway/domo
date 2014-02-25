@@ -31,7 +31,7 @@ form {
 
     // Required *
     em {
-      color: $brand_color;
+      color: $brand-color;
       font-weight: 300;
       display: inline-block;
       @include font-size(16);
@@ -48,7 +48,7 @@ form {
     line-height: 1.5em;
     border-radius: 0;
     height: 2.5em;
-    font-family: $sans_serif;
+    font-family: $sans-serif;
     color: $brand-charcoal;
     @include font-size(15);
     font-weight: 500;
@@ -68,9 +68,9 @@ form {
 
     &:focus {
       background: #f6f6f6;
-      border-bottom: 1px solid $brand_color;
+      border-bottom: 1px solid $brand-color;
       box-shadow: none;
-      color: $brand_color;
+      color: $brand-color;
       padding-left: .8em;
     }
   }
