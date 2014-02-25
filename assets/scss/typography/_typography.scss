@@ -125,13 +125,13 @@
   }
 
   ins {
-    background-color: lighten($brand_color, 75%);
+    background-color: lighten($brand-color, 75%);
     color: $text_color;
     text-decoration: none;
   }
 
   mark {
-    background-color: lighten($brand_color, 75%);
+    background-color: lighten($brand-color, 75%);
     color: $text_color;
     font-style: italic;
     font-weight: bold;
